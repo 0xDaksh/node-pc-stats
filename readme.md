@@ -1,9 +1,4 @@
 <h2 align="center">Node-PC-Stats</h2>
-
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Dakssh/node-pc-stats)
-[![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://github.com/Dakssh/node-pc-stats)
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](https://dak.sh)
-
 <p align="center">An NPM Module which returns Your Personal Computer's (PC) Resource Usage.</p>
 
 ### How It Works?
