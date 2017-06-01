@@ -18,6 +18,28 @@ stats().then((statistics) => {
 })
 ```
 
+###  The Output (https://npm.runkit.com/pc-stats)
+```javascript
+cpu: Object
+name: "Intel(R) Xeon(R) CPU E5-2666 v3 @ 2.90GHz"
+threads: Array (8 items)
+0: Object {idle: 92.63157894736842, …}
+1: Object {idle: 76.13636363636364, …}
+2: Object {idle: 86.95652173913044, …}
+3: Object {idle: 92.63157894736842, …}
+4: Object {idle: 89.58333333333334, …}
+5: Object {idle: 95.6989247311828, …}
+6: Object {idle: 96.84210526315789, …}
+7: Object {idle: 96.80851063829788, …}
+Array Prototype
+...
+...
+ram: Object
+free: "1.55"
+total: "15.77"
+unit: "GB"
+```
+
 ### Extras
 
 * ✨ [pc-stats-api](https://github.com/Dakssh/PC-Stats-API) - PC Stats API
