@@ -1,6 +1,10 @@
-<h2 style="text-align:center">Node-PC-Stats</h2>
+<h2 align="center">Node-PC-Stats</h2>
 
-<p style="text-align:center;">An NPM Module which returns Your Personal Computer's (PC) Resource Usage.</p>
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Dakssh/node-pc-stats)
+[![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://github.com/Dakssh/node-pc-stats)
+[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](https://dak.sh)
+
+<p align="center">An NPM Module which returns Your Personal Computer's (PC) Resource Usage.</p>
 
 ### How It Works?
 - Import It
@@ -26,4 +30,4 @@ stats().then((statistics) => {
 * 🌎 [node-FileScraper](https://github.com/Dakssh/node-FileScraper) - A File Scraper Which Scrapes Files for you
 
 ### License
-<p style="text-align:center;">This Module is Licensed Under MIT 2017, Created by Daksh Miglani</p>
+<p align="center">This Module is Licensed Under MIT 2017, Created by Daksh Miglani</p>
