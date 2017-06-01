@@ -12,11 +12,11 @@
 ### The Code
 ```javascript
 var stats = require('pc-stats')
-    stats().then((statistics) => {
-        console.log(statistics)
-    }).catch((err) => {
-        console.log(error)
-    })
+stats().then((statistics) => {
+    console.log(statistics)
+}).catch((err) => {
+    console.log(err)
+})
 ```
 
 ### Extras
