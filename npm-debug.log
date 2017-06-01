@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\hello\\Desktop\\Code\\npm-stats',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\hello\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle pc-stats@0.0.3~prepublish: pc-stats@0.0.3
+11 silly lifecycle pc-stats@0.0.3~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\hello\\AppData\\Roaming\\npm-cache\\pc-stats\\0.0.3\\package.tgz',
+12 verbose tar pack   'C:\\Users\\hello\\Desktop\\Code\\npm-stats' ]
+13 verbose tarball C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package.tgz
+14 verbose folder C:\Users\hello\Desktop\Code\npm-stats
+15 verbose addLocalTarball adding from inside cache C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package.tgz
+16 verbose correctMkdir C:\Users\hello\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd pc-stats@0.0.3
+18 verbose afterAdd C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\hello\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package\package.json written
+21 silly publish { name: 'pc-stats',
+21 silly publish   version: '0.0.3',
+21 silly publish   description: 'A Module that Provides you System Resource Usage (CPU, RAM, DISK) Information.',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Dakssh/node-pc-stats.git' },
+21 silly publish   keywords:
+21 silly publish    [ 'pc-stats',
+21 silly publish      'node-pc-stats',
+21 silly publish      'cpu-usage',
+21 silly publish      'cpu',
+21 silly publish      'ram',
+21 silly publish      'ram-usage',
+21 silly publish      'disk',
+21 silly publish      'disk-usage' ],
+21 silly publish   author:
+21 silly publish    { name: 'Daksh Miglani',
+21 silly publish      email: 'hello@dak.sh',
+21 silly publish      url: 'https://dak.sh' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/Dakssh/node-pc-stats/issues' },
+21 silly publish   homepage: 'https://github.com/Dakssh/node-pc-stats#readme',
+21 silly publish   dependencies: { 'cpu-stats': '^1.0.0', os: '^0.1.1' },
+21 silly publish   readme: '<h2 align="center">Node-PC-Stats</h2>\r\n<p align="center">An NPM Module which returns Your Personal Computer\'s (PC) Resource Usage.</p>\r\n\r\n### How It Works?\r\n- Import It\r\n- Run it as a Function\r\n- Returns a Promise\r\n- Use the Javascript then function on the Promise for Success Message\r\n- Use the Javascript catch function to the Promise for Error Message\r\n\r\n### The Code\r\n```javascript\r\nvar stats = require(\'pc-stats\')\r\nstats().then((statistics) => {\r\n    console.log(statistics)\r\n}).catch((err) => {\r\n    console.log(err)\r\n})\r\n```\r\n\r\n### Extras\r\n\r\n* ✨ [pc-stats-api](https://github.com/Dakssh/PC-Stats-API) - PC Stats API\r\n* 🚩 [employee-churn](https://github.com/Dakssh/EmployeeChurn) - A Deep Neural Network for Calculating Churn\r\n* 🌎 [node-FileScraper](https://github.com/Dakssh/node-FileScraper) - A File Scraper Which Scrapes Files for you\r\n\r\n### License\r\n<p align="center">This Module is Licensed Under MIT 2017, Created by Daksh Miglani</p>',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: '8044c1a654407050ef33e3fcbbddc5e7b9ca0aa9',
+21 silly publish   _id: 'pc-stats@0.0.3',
+21 silly publish   _shasum: '2d7c680f952da602d350e659978687c965b78b7f',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name pc-stats
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'pc-stats',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'pc-stats',
+26 silly mapToRegistry   name: 'pc-stats',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/pc-stats
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\hello\AppData\Roaming\npm-cache\pc-stats\0.0.3\package.tgz
+30 verbose request uri https://registry.npmjs.org/pc-stats
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 8:24:00 PM
+33 verbose request using bearer token for auth
+34 verbose request id a5fbd3ce3e9914ad
+35 http request PUT https://registry.npmjs.org/pc-stats
+36 http 403 https://registry.npmjs.org/pc-stats
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 01 Jun 2017 14:54:03 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1496328842.383379,VS0,VE878',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\hello\AppData\Roaming\npm-cache\registry.npmjs.org\pc-stats on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.3." : pc-stats
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid pc-stats
+43 verbose cwd C:\Users\hello\Desktop\Code\npm-stats
+44 error Windows_NT 10.0.15063
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.10.3
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.3." : pc-stats
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
