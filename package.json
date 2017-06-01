@@ -1,0 +1,29 @@
+{
+  "name": "pc-stats",
+  "version": "0.0.1",
+  "description": "A Module that Provides you System Resource Usage (CPU, RAM, DISK) Information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dakssh/node-pc-stats.git"
+  },
+  "keywords": [
+    "pc-stats",
+    "node-pc-stats",
+    "cpu-usage",
+    "cpu",
+    "ram",
+    "ram-usage",
+    "disk",
+    "disk-usage"
+  ],
+  "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dakssh/node-pc-stats/issues"
+  },
+  "homepage": "https://github.com/Dakssh/node-pc-stats#readme"
+}
