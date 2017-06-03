@@ -1,6 +1,6 @@
 {
   "name": "pc-stats",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Module that Provides you System Resource Usage (CPU, RAM, DISK) Information.",
   "main": "index.js",
   "scripts": {
