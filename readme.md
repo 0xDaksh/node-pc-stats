@@ -1,6 +1,11 @@
 <h2 align="center">Node-PC-Stats</h2>
 <p align="center">An NPM Module which returns Your Personal Computer's (PC) Resource Usage.</p>
 
+[![npm version](https://badge.fury.io/js/pc-stats.svg)](https://badge.fury.io/js/pc-stats)
+[![GitHub issues](https://img.shields.io/github/issues/Dakssh/node-pc-stats.svg)](https://github.com/Dakssh/node-pc-stats/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Dakssh/node-pc-stats.svg)](https://github.com/Dakssh/node-pc-stats/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Dakssh/node-pc-stats/master/license.md)
+
 ### How It Works?
 - Import It
 - Run it as a Function
